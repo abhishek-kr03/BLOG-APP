@@ -1,7 +1,3 @@
-Certainly! Here's a detailed explanation of your Blog App project to include in your README file on GitHub:
-
----
-
 # Blog App
 
 ## Introduction
