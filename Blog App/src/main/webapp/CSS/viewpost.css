@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* newpost.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Post details section */
+.post-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures overflow content doesn't protrude */
+}
+
+.post-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-details p {
+    line-height: 1.6;
+}
+
+.post-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post-details video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post-details p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 0.5s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
