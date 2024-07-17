@@ -12,11 +12,11 @@ Blog App is a web application designed for users to create, view, and manage blo
 - **Media Uploads**: Support for uploading images and videos to enhance blog posts.
 - **Search Functionality**: A responsive search bar for finding posts based on keywords.
 - **Security Enhancements (Backend)**: 
-  - Implement secure password hashing and storage using algorithms like BCrypt.
-  - Validate user input to prevent SQL injection attacks (use prepared statements).
+  - Implemented secure password hashing and storage using algorithms like BCrypt.
+  - Validated user input to prevent SQL injection attacks (used prepared statements).
 - **Viewer Functionalities**:
-  - Search blog posts by title or date.
-  - Implement pagination and sorting for search results (consider using libraries like Apache Commons DbUtils).
+  - Search funtionality of blog posts by using title or date.
+  - Implemented pagination and sorting for search results.
   - View individual blog posts in detail, opening them in a new tab.
 
 ## Technologies Used
