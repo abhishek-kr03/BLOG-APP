@@ -6,7 +6,6 @@
 body {
     margin: auto;
     padding: 0;
-
     align-items: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
@@ -104,7 +103,6 @@ button:hover {
 
 .hero p {
     font-size: 18px;
-    color: #666;
 }
 
 /* Gallery Styles */
@@ -206,9 +204,9 @@ button:hover {
     font-size: 32px;
 }
 
-.post-detail p {
+.post-detail p,strong, span, p {
     font-size: 16px;
-    color: #666;
+    color: rgb(192, 192, 192);
 }
 
 .post-detail img {
@@ -223,7 +221,7 @@ button:hover {
     border-radius: 10px;
 }
 
-h1{
+h1,h2{
 	color: white;
 	text-align: center;
 }
