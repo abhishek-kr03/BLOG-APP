@@ -143,10 +143,6 @@ Blog App/
 
 Contributions are welcome! Fork the repository, make changes, and submit pull requests for enhancements, bug fixes, or new features.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to further customize this README to include specific instructions, screenshots, or additional sections based on your project's needs. This version includes the necessary database setup details for clarity.
