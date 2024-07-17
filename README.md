@@ -144,6 +144,12 @@ Blog App/
 6. **View Posts**
    - Display posts with multimedia content.
 
+7. **Search Posts**
+   - Users can search for posts using keywords.
+  
+8. **Update Post**
+   - Admin can update the posts.
+
 ## Contributions
 
 Contributions are welcome! Fork the repository, make changes, and submit pull requests for enhancements, bug fixes, or new features.
