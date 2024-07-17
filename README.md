@@ -39,7 +39,7 @@ Blog App/
 │   ├── main/
 │   │   ├── java/
 │   │   │   ├── dao/
-│   │   │   │   ├── PostDAO.java(for Pagination)
+│   │   │   │   ├── PostDAO.java (for pagination)
 │   │   │   ├── model/
 │   │   │   │   ├── Post.java
 │   │   │   │   ├── User.java
@@ -48,23 +48,28 @@ Blog App/
 │   │   │   │   ├── ListPostsServlet.java
 │   │   │   │   ├── LoginServlet.java
 │   │   │   │   ├── RegisterServlet.java
-│   │   ├── webapp/
-│   │   │   ├── CSS/
-│   │   │   │   ├── dashboard.css
-│   │   │   │   ├── newpost.css
-│   │   │   │   ├── signin.css
-│   │   │   │   ├── styles.css
-│   │   │   │   ├── viewpost.css
-│   │   │   ├── WEB-INF/
-│   │   │   │   ├── web.xml
-│   │   │   ├── index.jsp
-│   │   │   ├── register.jsp
-│   │   │   ├── login.jsp
-│   │   │   ├── dashboard.jsp
-│   │   │   ├── newpost.jsp
-│   │   │   ├── search.jsp
-│   │   │   ├── update.jsp
-│   │   │   ├── viewpost.jsp
+│   │   │   │   ├── DeleteServlet.java
+│   │   │   │   ├── LogoutServlet.java
+│   │   │   │   ├── SearchServlet.java
+│   │   │   │   ├── UpdatePostServlet.java
+│   │   │   │   ├── ViewPostServlet.java
+│   ├── webapp/
+│   │   ├── CSS/
+│   │   │   ├── dashboard.css
+│   │   │   ├── newpost.css
+│   │   │   ├── signin.css
+│   │   │   ├── styles.css
+│   │   │   ├── viewpost.css
+│   │   ├── WEB-INF/
+│   │   │   ├── web.xml
+│   │   ├── index.jsp
+│   │   ├── register.jsp
+│   │   ├── login.jsp
+│   │   ├── dashboard.jsp
+│   │   ├── newpost.jsp
+│   │   ├── search.jsp
+│   │   ├── update.jsp
+│   │   ├── viewpost.jsp
 ├── pom.xml
 ```
 
