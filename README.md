@@ -164,3 +164,32 @@ Contributions are welcome! Fork the repository, make changes, and submit pull re
 ---
 
 Feel free to further customize this README to include specific instructions, screenshots, or additional sections based on your project's needs. This version includes the necessary database setup details for clarity.
+
+SAMPLE IMAGES : 
+
+![Screenshot 2024-07-18 005822](https://github.com/user-attachments/assets/61208af3-0011-4326-9a04-0ddce98f55cb)
+
+![Screenshot 2024-07-18 005844](https://github.com/user-attachments/assets/9d5dc708-bc05-47c2-94db-0e6f581a651a)
+
+![Screenshot 2024-07-18 005910](https://github.com/user-attachments/assets/1e73f34b-2a6f-4a91-add9-64ca95bf1499)
+
+![Screenshot 2024-07-18 005942](https://github.com/user-attachments/assets/13eb0e65-c95b-49f0-a7b8-27960047d95b)
+
+![Screenshot 2024-07-18 010003](https://github.com/user-attachments/assets/d387ec60-4e75-4b57-8ef0-d9389d485e96)
+
+![Screenshot 2024-07-18 010031](https://github.com/user-attachments/assets/22ddea6d-0e5e-46a9-9a61-11e13a99ba38)
+
+![Screenshot 2024-07-18 010115](https://github.com/user-attachments/assets/c3158961-b8f2-4a0a-ab9f-24e65c34ce50)
+
+![Screenshot 2024-07-18 010139](https://github.com/user-attachments/assets/a5c6d75f-8118-4204-9f78-1e49d0295bd3)
+
+![Screenshot 2024-07-18 010204](https://github.com/user-attachments/assets/b6e012e3-ec24-4018-96a2-eeb1c9c4b135)
+
+
+
+
+
+
+
+
+
