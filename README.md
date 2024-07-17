@@ -165,6 +165,8 @@ Contributions are welcome! Fork the repository, make changes, and submit pull re
 
 Feel free to further customize this README to include specific instructions, screenshots, or additional sections based on your project's needs. This version includes the necessary database setup details for clarity.
 
+---
+
 SAMPLE IMAGES : 
 
 ![Screenshot 2024-07-18 005822](https://github.com/user-attachments/assets/61208af3-0011-4326-9a04-0ddce98f55cb)
