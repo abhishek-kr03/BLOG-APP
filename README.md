@@ -39,7 +39,7 @@ Blog App/
 │   ├── main/
 │   │   ├── java/
 │   │   │   ├── dao/
-│   │   │   │   ├── PostDAO.java
+│   │   │   │   ├── PostDAO.java(for Pagination)
 │   │   │   ├── model/
 │   │   │   │   ├── Post.java
 │   │   │   │   ├── User.java
