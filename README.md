@@ -43,7 +43,7 @@ Blog App/
 │   │   │   ├── model/
 │   │   │   │   ├── Post.java
 │   │   │   │   ├── User.java
-│   │   │   ├── servlet/
+│   │   │   ├── servlets/
 │   │   │   │   ├── CreatePostServlet.java
 │   │   │   │   ├── ListPostsServlet.java
 │   │   │   │   ├── LoginServlet.java
