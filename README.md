@@ -38,7 +38,7 @@ Blog App is a web application designed for users to create, view, and manage blo
 - **Apache Tomcat**: Web server for deploying Java Servlets and JSPs.
 - **GitHub**: Version control and collaboration platform.
 
-## Project Structure
+## Project Structure (DOM)
 
 ```
 Blog App/
