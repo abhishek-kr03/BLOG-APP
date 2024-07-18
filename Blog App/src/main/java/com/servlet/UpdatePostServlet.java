@@ -122,7 +122,7 @@ public class UpdatePostServlet extends HttpServlet {
         post.setVideoUrl(videoUrl);
 
         updatePost(post);
-
+        
         response.sendRedirect("listposts"); // Redirect to the post listing page after update
     }
 }
