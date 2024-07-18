@@ -52,9 +52,10 @@
                                     </video>
                                 <% } %>
                                 <span>Posted on: <%= post.getCreatedAt() %></span>
+				<a href="viewpost?id=<%= post.getId() %>" class="btn" target="_blank">View Details</a> <!-- Opens in new tab -->
                            </div>
                        </div>
-            <%     }
+        	<% }
                } else { %>
                    <p>No results found for "<%= request.getParameter("query") %>".</p>
             <% } %>
