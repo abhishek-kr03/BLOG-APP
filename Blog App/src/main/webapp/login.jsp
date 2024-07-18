@@ -28,7 +28,7 @@
             <input type="password" id="password" name="password" required>
             <button type="submit">Login</button>
         </form>
-        <p><a href="forgotpassword.jsp">Forgot Password?</a></p>
+        <p><a href="login.jsp">Forgot Password?</a></p>
         <p><a href="register.jsp">Register if you don't have an account</a></p>
     </div>
 </body>
