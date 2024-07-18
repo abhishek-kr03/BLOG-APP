@@ -181,7 +181,7 @@ SAMPLE IMAGES :
 
 ![Screenshot 2024-07-18 010031](https://github.com/user-attachments/assets/22ddea6d-0e5e-46a9-9a61-11e13a99ba38)
 
-![Screenshot 2024-07-18 010115](https://github.com/user-attachments/assets/c3158961-b8f2-4a0a-ab9f-24e65c34ce50)
+![image](https://github.com/user-attachments/assets/6bbe9fbe-2845-4e37-8ad7-c426ab7dd20c)
 
 ![Screenshot 2024-07-18 010139](https://github.com/user-attachments/assets/a5c6d75f-8118-4204-9f78-1e49d0295bd3)
 
