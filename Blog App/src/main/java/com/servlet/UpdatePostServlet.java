@@ -6,16 +6,18 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
 
 import com.model.Post;
 
 @WebServlet("/updatepost")
+@MultipartConfig
 public class UpdatePostServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -94,8 +96,23 @@ public class UpdatePostServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         String title = request.getParameter("title");
         String content = request.getParameter("content");
-        String imageUrl = request.getParameter("imageUrl");
-        String videoUrl = request.getParameter("videoUrl");
+
+        // File upload handling
+        Part imagePart = request.getPart("imageUrl");
+        Part videoPart = request.getPart("videoUrl");
+
+        String imageUrl = null;
+        String videoUrl = null;
+
+     // Upload image and video files to the server
+        if (imagePart != null && imagePart.getSize() > 0) {
+            imageUrl = "uploads/" + imagePart.getSubmittedFileName();
+            imagePart.write(getServletContext().getRealPath("/") + imageUrl);
+        }
+        if (videoPart != null && videoPart.getSize() > 0) {
+            videoUrl = "uploads/" + videoPart.getSubmittedFileName();
+            videoPart.write(getServletContext().getRealPath("/") + videoUrl);
+        }
 
         Post post = new Post();
         post.setId(id);
