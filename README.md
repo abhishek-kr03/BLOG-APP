@@ -8,7 +8,6 @@ Blog App is a web application designed for users to create, view, and manage blo
 
 - **User Authentication**: Sign up and login functionality for users to manage their posts.
 - **Create and Edit Posts**: Users can create new blog posts with titles, content, images, and videos. They can also edit existing posts.
-- **Responsive Design**: Ensures a seamless user experience across different devices.
 - **Media Uploads**: Support for uploading images and videos to enhance blog posts.
 - **Search Functionality**: A responsive search bar for finding posts based on keywords.
 - **Security Enhancements (Backend)**: 
