@@ -34,7 +34,7 @@
 		            <strong>Stay Connected:</strong><span> Engage with a vibrant community of readers and writers.</span><br>
 		        </ul>
 		        <h2>Getting Started</h2>
-		        <p>To begin your blogging journey, please log in or register:</p>
+		        <p>To begin your blogging journey, please log in or register.</p>
        		 </section>  
          </main>    
     
