@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="CSS/signin.css">
+    <style>
+    	.register-container {
+		    background: #fff;
+		    padding: 20px;
+		    border-radius: 10px;
+		    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		    text-align: center;
+		    width: 300px;
+		    margin-top: 50px;
+		    animation: fadeIn 1s ease-in-out;
+			}			
+		@keyframes fadeIn {
+			    from { opacity: 0; transform: translateY(-20px); }
+			    to { opacity: 1; transform: translateY(0); }
+			}
+    </style>
 </head>
 <body>
     <header>
@@ -19,7 +35,7 @@
         </nav>
     </header>
 
-    <div class="register-container">
+    <div class="register-container fade-in">
         <h2>Register</h2>
         <form action="register" method="post">
             <label for="name">Full Name:</label>
@@ -35,6 +51,7 @@
                 <option value="Viewer">Viewer</option>
             </select>
             <button type="submit">Register</button>
+            <p><a href="login.jsp">Already have an account! Login</a></p>
         </form>
     </div>
 </body>
