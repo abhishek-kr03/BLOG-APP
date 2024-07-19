@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="CSS/signin.css">
+    <style>
+	 	.login-container {
+		    background: #fff;
+		    padding: 20px;
+		    border-radius: 10px;
+		    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		    text-align: center;
+		    width: 300px;
+		    margin-top: 50px;
+		    animation: fadeIn 1s ease-in-out;
+			}			
+		@keyframes fadeIn {
+			    from { opacity: 0; transform: translateY(-20px); }
+			    to { opacity: 1; transform: translateY(0); }
+			}
+    </style>
 </head>
 <body>
     <header>
@@ -29,7 +45,7 @@
             <button type="submit">Login</button>
         </form>
         <p><a href="login.jsp">Forgot Password?</a></p>
-        <p><a href="register.jsp">Register if you don't have an account</a></p>
+        <p><a href="register.jsp">Don't have an account! Register</a></p>
     </div>
 </body>
 </html>
