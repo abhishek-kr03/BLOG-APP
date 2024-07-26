@@ -1,5 +1,6 @@
 package com.servlet;
 
+import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -101,17 +102,22 @@ public class UpdatePostServlet extends HttpServlet {
         Part imagePart = request.getPart("imageUrl");
         Part videoPart = request.getPart("videoUrl");
 
+        String uploadDir = getServletContext().getRealPath("/") + "uploads";
+        File uploadDirFile = new File(uploadDir);
+        if (!uploadDirFile.exists()) {
+            uploadDirFile.mkdirs(); // Create the directory if it does not exist
+        }
+
         String imageUrl = null;
         String videoUrl = null;
 
-     // Upload image and video files to the server
         if (imagePart != null && imagePart.getSize() > 0) {
             imageUrl = "uploads/" + imagePart.getSubmittedFileName();
-            imagePart.write(getServletContext().getRealPath("/") + imageUrl);
+            imagePart.write(uploadDir + File.separator + imagePart.getSubmittedFileName());
         }
         if (videoPart != null && videoPart.getSize() > 0) {
             videoUrl = "uploads/" + videoPart.getSubmittedFileName();
-            videoPart.write(getServletContext().getRealPath("/") + videoUrl);
+            videoPart.write(uploadDir + File.separator + videoPart.getSubmittedFileName());
         }
 
         Post post = new Post();
@@ -122,7 +128,7 @@ public class UpdatePostServlet extends HttpServlet {
         post.setVideoUrl(videoUrl);
 
         updatePost(post);
-        
+
         response.sendRedirect("listposts"); // Redirect to the post listing page after update
     }
 }
